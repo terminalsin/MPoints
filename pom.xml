@@ -151,6 +151,10 @@
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -204,6 +208,13 @@
             <artifactId>HikariCP</artifactId>
             <version>3.4.5</version>
             <scope>compile</scope>
+        </dependency>
+        <!-- BossShop API -->
+        <dependency>
+            <groupId>com.github.Blackixx</groupId>
+            <artifactId>BossShopPro</artifactId>
+            <version>b8ebbfc58c</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
